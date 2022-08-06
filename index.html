@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(de)CODIFIQUE</title>
+
+    <link rel="stylesheet" href="./styles/reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&family=Poppins:wght@400;700&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-bg">
+                <div class="header-img">
+                    <img src="https://img.icons8.com/ios/50/ffffff/internet--v1.png" alt="globo terrestre com um cursor apontado para ele" onclick="pintar('white')" />
+                </div>
+                <h1><span>(de)</span>CODIFIQUE_</h1>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card-principal">
+                <div class="card-navegacao">
+                    <div class="card-nav-botoes">
+                        <div class="div-botao vermelho" onclick="pintar('#FFA9DC')"></div>
+                        <div class="div-botao amarelo" onclick="pintar('#FFE993')"></div>
+                        <div class="div-botao verde" onclick="pintar('#7BDAAC')"></div>
+                    </div>
+                    <div class="card-nav-info">
+                        <img src="https://img.icons8.com/external-febrian-hidayat-glyph-febrian-hidayat/18/eeeeee/external-information-ui-essential-febrian-hidayat-glyph-febrian-hidayat.png" alt="informação" />
+                        <p>Use apenas letras minúsculas</p>
+                    </div>
+                </div>
+                <div class="campo-decodificacao">
+                    <textarea name="texto-codificador" id="txt-cod" cols="30" rows="6" placeholder="Digite o seu texto aqui..."></textarea>
+                </div>
+                <div class="botoes">
+                    <div class="botao vermelho">
+                        <img src="https://img.icons8.com/ios-filled/20/ffffff/lock.png" alt="cadeado fechado" />
+                        <button class="btn-deco" id="btn-codificar" type="submit">Codificar</button>
+                    </div>
+                    <div class="botao verde">
+                        <img src="https://img.icons8.com/ios-filled/20/ffffff/unlock--v1.png" alt="cadeado aberto" />
+                        <button class="btn-deco" id="btn-decodificar" type="submit">Decodificar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-mensagem">
+                <div class="interrogacao amarelo" id="interr">
+                    <img src="https://img.icons8.com/ios-filled/30/ffffff/question-mark.png" alt="interrogação" />
+                </div>
+                <p id="txt-resposta">Não há mensagens no momento...</p>
+
+                <button class="btn-deco" id="btn-copiar">Copiar</button>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <p><span>Criado por:</span></p>
+        <h3>Marino Mouzinho</h3>
+        <p>👨‍💻 <span>Técnico em Informática | Redes sociais</span> ⬇</p>
+        <div class="redes-sociais">
+            <a href=""><img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="github"></a>
+            <a href=""><img src="https://img.icons8.com/ios-filled/30/ffffff/linkedin-circled--v1.png" alt="linkedin"></a>
+        </div>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

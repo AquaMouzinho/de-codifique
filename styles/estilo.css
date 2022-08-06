@@ -1,0 +1,240 @@
+body {
+    background: url("../images/bg.png");
+    background-color: white;
+    position: relative;
+}
+
+.container {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.vermelho {
+    background-color: #FFA9DC;
+}
+
+.amarelo {
+    background-color: #FFE993;
+}
+
+.verde {
+    background-color: #7BDAAC;
+}
+
+.header-bg {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    width: max-content;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    filter: drop-shadow(8px 8px 0 #CBC8FF);
+}
+
+.header-img {
+    background-color: #b5b6cf;
+    padding: 5px 8px;
+    border-right: 2px solid black;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+
+.header-bg h1 {
+    padding: 0 15px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+    font-style: italic;
+}
+
+.header-bg h1 span {
+    font-weight: normal;
+    font-size: 20px;
+}
+
+main {
+    height: 81vh;
+}
+
+.card-principal {
+    background-color: whitesmoke;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    filter: drop-shadow(5px 5px 0 #CBC8FF);
+}
+
+.card-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 10%;
+    padding: 5px 0;
+    background-color: #b5b6cf;
+    border-bottom: 2px solid black;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-nav-botoes,
+.card-nav-info {
+    display: flex;
+    align-items: center;
+}
+
+.card-nav-info p {
+    color: #eeeeee;
+    margin: 0 20px 0 5px;
+}
+
+.div-botao {
+    height: 15px;
+    width: 15px;
+    margin-left: 10px;
+    border: 2px solid black;
+    border-radius: 100%;
+}
+
+.div-botao:hover {
+    filter: brightness(80%);
+    cursor: pointer;
+}
+
+.campo-decodificacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#txt-cod {
+    width: 100%;
+    padding: 10px 5px;
+    border: none;
+    resize: none;
+    outline: none;
+    background: whitesmoke;
+    font-family: 'PT Serif';
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(1, 66, 66);
+}
+
+.botoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 20px 0;
+    background: #b5b6cf;
+    border-radius: 0 0 10px 10px;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+}
+
+.botao img {
+    padding: 0 5px;
+}
+
+.btn-deco {
+    background: white;
+    padding: 5px 15px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color: black;
+    border-left: 2px solid black;
+    transition: all 0.1s linear;
+}
+
+.btn-deco:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-deco:active {
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, .6);
+    color: white;
+}
+
+.card-mensagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    border: 2px solid rgba(0, 0, 0);
+    border-radius: 10px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 15px 0;
+    filter: drop-shadow(5px 5px 0 #CBC8FF);
+}
+
+.interrogacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+#txt-resposta {
+    display: inline-block;
+    margin-top: 10px;
+    color: gray;
+}
+
+#btn-copiar {
+    display: none;
+    margin-top: 15px;
+    border: 2px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px 0;
+    filter: drop-shadow(-20px 0 20px rgba(0, 0, 0, 0.5));
+}
+
+footer p {
+    font-size: 16px;
+    margin-top: 3px;
+    color: rgba(255, 255, 255, .6);
+}
+
+footer p span {
+    font-style: italic;
+}
+
+footer h3 {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.redes-sociais {
+    margin-top: 10px;
+}
