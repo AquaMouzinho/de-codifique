@@ -1,6 +1,5 @@
 # Challenge ONE Sprint 01
-
-Uma aplicação codificadora e decodificadora elaborada por meio de HTML, CSS e Javascript. Apelidada por mim de `(de)CODIFIQUE_`.
+Apelidada de `(de)CODIFIQUE_`, esta é uma aplicação codificadora e decodificadora elaborada por meio do HTML, CSS e Javascript.
 
 ## Prévia no GitHub Pages:
 Se você ficou com curiosidade para saber como ficou o trabalho final:
