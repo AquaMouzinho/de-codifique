@@ -6,7 +6,6 @@ body {
 
 .container {
     margin-top: 20px;
-    margin-left: 20px;
 }
 
 .vermelho {
@@ -24,39 +23,34 @@ body {
 .header-bg {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     margin: 0 auto;
     width: max-content;
     border: 2px solid black;
     border-radius: 10px;
     background-color: white;
-    filter: drop-shadow(8px 8px 0 #CBC8FF);
+    filter: drop-shadow(5px 5px 0 #CBC8FF);
 }
 
 .header-img {
     background-color: #b5b6cf;
-    padding: 5px 8px;
+    padding: 0.3em;
     border-right: 2px solid black;
     border-radius: 10px 0 0 10px;
     cursor: pointer;
 }
 
 .header-bg h1 {
-    padding: 0 15px;
+    padding: 0 0.5em;
     font-family: 'Poppins';
     font-weight: bold;
-    font-size: 32px;
+    font-size: 1.3em;
     color: black;
     font-style: italic;
 }
 
 .header-bg h1 span {
     font-weight: normal;
-    font-size: 20px;
-}
-
-main {
-    height: 81vh;
+    font-size: 0.7em;
 }
 
 .card-principal {
@@ -195,8 +189,11 @@ main {
 }
 
 #txt-resposta {
-    display: inline-block;
-    margin-top: 10px;
+    width: 90%;
+    display: block;
+    margin: 10px;
+    text-align: center;
+    word-break: break-word;
     color: gray;
 }
 
@@ -213,13 +210,13 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 0 auto;
-    padding: 20px 0;
+    margin-top: 3em;
+    padding: 2em 0;
     filter: drop-shadow(-20px 0 20px rgba(0, 0, 0, 0.5));
 }
 
 footer p {
-    font-size: 16px;
+    font-size: 15pt;
     margin-top: 3px;
     color: rgba(255, 255, 255, .6);
     font-style: italic;
@@ -227,7 +224,7 @@ footer p {
 
 footer h3 {
     font-family: 'Poppins';
-    font-size: 25px;
+    font-size: 17pt;
     font-weight: bold;
     margin-top: 5px;
 }
