@@ -31,9 +31,8 @@ function codificar() {
     texto.value = "";
     texto.focus();
 
-    txtSaida.style.color = "black";
-    txtSaida.style.fontSize = "18px";
-    btnCopiar.style.display = "inline-block";
+    txtSaida.style.textAlign = "start";
+    btnCopiar.style.display = "flex";
     document.getElementById("interr").style.display = "none";
 }
 
