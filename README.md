@@ -1,9 +1,8 @@
-# Challenge ONE Sprint 01 - por Marino Mouzinho
+# Challenge Oracle ONE - Sprint 01
 Este projeto é o resultado do primeiro *challenge*/desafio desenvolvido na 3ª turma da #OracleNextEducation, apelidado por mim de "*(de)CODIFIQUE_*" :rocket:
 
 ### Prévia no GitHub Pages:
-Se você ficou com curiosidade para saber como ficou o trabalho final você pode seguir o link a seguir:
-https://aquamouzinho.github.io/Challenge-Oracle-ONE
+⛓️: https://aquamouzinho.github.io/Challenge-Oracle-ONE
 
 ## 📋 Sobre
 Feito com HTML, CSS e Javascript esta aplicação tem por função codificar e decodificar mensagens de texto de maneira simples. Visando a troca de informações com outras pessoas de uma forma segura e divertida.
