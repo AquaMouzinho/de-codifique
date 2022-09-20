@@ -49,3 +49,6 @@ Desse modo, a fim de explorar um novo visual para o projeto, elaborei um novo la
 | Layout disponibilizado | Layout Final |
 | :---: | :---: |
 | <img src="https://user-images.githubusercontent.com/42475699/183266602-eca6d5cd-2cfd-4c77-aa02-326f4df0d2a3.png" alt="layout disponibilizado" width="500px"> | <img src="https://user-images.githubusercontent.com/42475699/183266565-9b40b3fe-7fff-4d80-8d47-4efe5c42425e.png" alt="layout final" width="500px"> |
+
+---
+Desenvolvido com :heart: por [Marino Mouzinho](https://github.com/AquaMouzinho)
