@@ -1,14 +1,14 @@
-# Challenge ONE Sprint 01 💻
-Este projeto, apelidado por mim de "*(de)CODIFIQUE_*", é o resultado do primeiro *challenge*/desafio desenvolvido na 3ª turma da #OracleNextEducation :rocket:
+# Challenge ONE Sprint 01 - por Marino Mouzinho
+Este projeto é o resultado do primeiro *challenge*/desafio desenvolvido na 3ª turma da #OracleNextEducation, apelidado por mim de "*(de)CODIFIQUE_*" :rocket:
 
 ### Prévia no GitHub Pages:
 Se você ficou com curiosidade para saber como ficou o trabalho final você pode seguir o link a seguir:
 https://aquamouzinho.github.io/Challenge-Oracle-ONE
 
-## Sobre
-Feito com HTML, CSS e Javascript, esta aplicação tem por função codificar e decodificar mensagens de texto de maneira simples para trocar informações com outras pessoas de uma forma segura e divertida.
+## 📋 Sobre
+Feito com HTML, CSS e Javascript esta aplicação tem por função codificar e decodificar mensagens de texto de maneira simples. Visando a troca de informações com outras pessoas de uma forma segura e divertida.
 
-### Como funciona? 🛠
+### 🛠 Como funciona? 
 #### Codificação
 Ao inserir a sua mensagem no campo de texto e pressionar o botão *codificar* a aplicação irá percorrer pelo o seu texto caracter por caracter em busca de substituir as vogais presentes pelos seguintes códigos pré-determinados:
 
@@ -25,7 +25,7 @@ Nesse caso, a aplicação percorrerá na mensagem encriptada em busca das vogais
 - Não devem ser utilizados letras com acentos nem caracteres especiais
 - Deve funcionar apenas com letras minúsculas
 
-## Exemplos
+## ⌨️ Exemplos
 1. Codificação:
 
 | Entrada | Saída |
@@ -42,10 +42,10 @@ Nesse caso, a aplicação percorrerá na mensagem encriptada em busca das vogais
 | `tailventerz enterufat fimesqufatenter enterm caisai` | `talvez eu fique em casa` |
 | `vaizaimenterntobers` | `vazamentos` |
 
-## Layout 🎨
-Para este desafio foi disponibilizado pela ONE um modelo no Figma e proposto a sua implementação. Ficando a critério do aluno optar por sua implementação ou não, permitindo explorar a sua criatividade.
+## 🎨 Layout 
+Para este desafio foi disponibilizado pela ONE um modelo base no Figma, ficando a critério do aluno optar pela sua implementação ou não. Permitindo explorar a sua criatividade ao optar por não utilizar o modelo base.
 
-Decidi por explorar mais a criatividade, elaborei um novo layout para o desafio me inspirando na estética vista no *set* de ilustrações ["Bubble Gum"](https://dribbble.com/shots/17576205-Bubble-gum) criado por Fruzka. Isso sem me esquecer dos elementos essenciais existentes no layout disponibilizado. 
+Desse modo, a fim de explorar um novo visual para o projeto, elaborei um novo layout para o desafio me inspirando na estética vista no *set* de ilustrações ["Bubble Gum"](https://dribbble.com/shots/17576205-Bubble-gum) criado por Fruzka. Esta nova UI contou com todos os elementos do modelo base, porém repaginados com uma nova estética. 
 
 | Layout disponibilizado | Layout Final |
 | :---: | :---: |
