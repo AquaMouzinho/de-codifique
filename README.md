@@ -1,4 +1,4 @@
-# Challenge Oracle ONE - Sprint 01
+# "(de)CODIFIQUE_" - Challenge Oracle ONE - Sprint 01
 Este projeto é o resultado do primeiro *challenge*/desafio desenvolvido na 3ª turma da #OracleNextEducation, apelidado por mim de "*(de)CODIFIQUE_*" :rocket:
 
 ### Prévia no GitHub Pages:
