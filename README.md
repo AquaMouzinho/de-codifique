@@ -2,10 +2,10 @@
 Este projeto é o resultado do primeiro *challenge*/desafio desenvolvido na 3ª turma da #OracleNextEducation, apelidado por mim de "*(de)CODIFIQUE_*" :rocket:
 
 ### Prévia no GitHub Pages:
-⛓️: https://aquamouzinho.github.io/Challenge-Oracle-ONE
+⛓️: https://aquamouzinho.github.io/de-codifique
 
 ## 📋 Sobre
-Feito com HTML, CSS e Javascript esta aplicação tem por função codificar e decodificar mensagens de texto de maneira simples. Visando a troca de informações com outras pessoas de uma forma segura e divertida.
+Feito com HTML, CSS e Javascript. Esta aplicação tem por função codificar e decodificar mensagens de texto de maneira simples, visando a troca de informações com outras pessoas de uma forma segura e divertida.
 
 ### 🛠 Como funciona? 
 #### Codificação
